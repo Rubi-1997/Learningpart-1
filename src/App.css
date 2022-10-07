@@ -1,0 +1,132 @@
+body{
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+.Maincontainer{
+  width:100%;
+  display: flex;
+  box-sizing:border-box;
+  margin-top:32px;
+  padding: 4% 12%;
+  /* justify-content: center; */
+  align-items: center;
+}
+/* .ProductPreview{
+  width: 50%;
+  position: relative;
+  font-size:4rem;
+  font-weight:600;
+
+}
+.ProductPreview>img{
+  width:100%;
+  /* margin-bottom: 10rem; */
+*/
+
+/* .ProductData{
+  width:50%; 
+  margin-bottom:30px;
+} */
+
+/* .Producttitle{
+ margin-top: 0;
+ margin-bottom: 16px;
+  font-size:50px;
+  font-weight:600;
+  /* margin-top: 0px;
+  margin-bottom:2rem; */
+  
+
+
+/* .ProductDesc{
+  font-size: 25px;
+  color: rgba(0,0,0,0.8);
+  margin-top: 0px;
+  margin-bottom:16px;
+  
+} */
+
+/* .ProductImage{
+  width: 100%;
+  max-width:82px;
+  border: 2px solid transparent;
+  border-radius:9px;
+  margin-right: 12px;
+  cursor:pointer;
+} */
+
+/* .SelectProductImage{
+  border:2px solid rgb(51, 150, 183);
+} */
+
+/* .SectionHeading{
+  font-size: 28px;
+  margin-bottom:8px;
+} */
+
+/* .FeatureItem{
+  min-width:80px;
+  background-color: gainsboro;
+  border-radius: 8px;
+  border:0; 
+  text-align: center;
+  margin-right: 12px;
+  cursor: pointer;
+  font-weight:600;
+  font-size:1rem;
+  box-sizing: content-box;
+  padding: 12px 24px;
+} */
+/* .Images{
+  margin-bottom:3rem;
+} */
+.SelectedFeatureItem{
+  color:white;
+  background-color: grey;
+}
+.PrimaryButton{
+  color:white;
+  background-color: teal;
+  font-size: 20px;
+  margin-top:36px;
+  border-radius: 8px;
+  border:0;
+  padding: 12px 24px;
+}
+/* .Timesection{
+  position: absolute;
+  top:50%;
+  left:50%;
+  color:white;
+  transform: translate(-50%,-50%);
+  font-size: 48PX;
+  font-weight: 600;
+}
+.HeartbeatSection{
+  position: absolute;
+  top:50%;
+  left:50%;
+  color:white;
+  transform: translate(-50%,-50%);
+  font-size: 48PX;
+  font-weight: 600;
+}
+.Fonticon{
+  color:red;
+  animation: beat 1s infinite;
+}
+.HeartbeatSection>p{
+
+  margin-top:5rem;
+}
+@keyframes beat {
+  0%{
+    transform: scale(1,1);
+  }
+  50%{
+    transform: scale(1.2 , 1.2);
+  }
+  100%{
+    transform: scale(1,1);
+  }
+} */

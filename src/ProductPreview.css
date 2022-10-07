@@ -1,0 +1,49 @@
+
+  .ProductPreview{
+    width:100%;
+    position: relative;
+    font-size:4rem;
+    font-weight:600;
+  
+  }
+  .ProductPreview>img{
+    width:100%;
+    /* margin-bottom: 10rem; */
+  }
+  .Timesection{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    transform: translate(-50%,-50%);
+    font-size: 48PX;
+    font-weight: 600;
+  }
+  .HeartbeatSection{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    transform: translate(-50%,-50%);
+    font-size: 48PX;
+    font-weight: 600;
+  }
+  .Fonticon{
+    color:red;
+    animation: beat 1s infinite;
+  }
+  .HeartbeatSection>p{
+  
+    margin-top:5rem;
+  }
+  @keyframes beat {
+    0%{
+      transform: scale(1,1);
+    }
+    50%{
+      transform: scale(1.2 , 1.2);
+    }
+    100%{
+      transform: scale(1,1);
+    }
+  }
